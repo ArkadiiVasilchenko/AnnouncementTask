@@ -1,0 +1,8 @@
+<div class="announcement-card__wrapper">
+    @for(announcement of announcements; track announcement.id){
+      <app-announcement-card
+      [announcement]="announcement"
+      ></app-announcement-card>
+    } 
+</div>
+  
